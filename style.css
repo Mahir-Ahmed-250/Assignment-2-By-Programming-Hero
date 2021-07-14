@@ -49,20 +49,11 @@ body{
     width: 556px;
     margin-top: 153px;
     margin-bottom: 86px;
+    transition: width 2s, height 4s;
 }
-@keyframes changewidth {
-    from {
-      width: 400px;
-    } 
-    to {
-      width: 550px;
-    }
-}
-.top-poster img  {
-    animation-duration: 1.5s;
-    animation-name: changewidth;
-    animation-iteration-count: infinite;
-    animation-direction:alternate-reverse;
+.top-poster img:hover {
+    width: 300px;
+    height: 300px;
   }
 /* Right Portion End */
 
@@ -208,7 +199,7 @@ grid-gap: 30px;}
 
 /* Bottom Part End     */
 
-/* Media Quere Start */
+/* Media Qurey Start */
 
 @media only screen and (max-width:688px) {
     .Top-Part{
@@ -236,7 +227,7 @@ grid-gap: 30px;}
         font-size: 16px;
     } 
 
-
+    
     .players{
         display: flex;
         flex-direction: column;}
@@ -269,6 +260,6 @@ grid-gap: 30px;}
     width: 250px;
     height: 110px;}   
 }
-/* Media Quere END */
+/* Media Qurey END */
 
 
