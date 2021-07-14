@@ -79,6 +79,9 @@ grid-gap: 30px;}
     margin-top: 15px;
     margin-bottom: 0px;
 }
+.player-description{
+    color: #6C6C6C;
+}
 .name-and-details-1{
     margin-top: 70px;
     margin-left: 50px;
