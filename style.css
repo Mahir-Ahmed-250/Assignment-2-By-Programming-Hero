@@ -5,6 +5,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    
 }
 
 /* Header start */
@@ -13,12 +14,14 @@ body{
 
 .Top-Part{
     background-color: #2D25A0 ;
+   
     
 }
 .Banner-and-Headline{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1px;
+    
 }
 .head-line{
     height: 230px;
@@ -204,13 +207,15 @@ grid-gap: 30px;}
 
 /* Media Qurey Start */
 
-@media only screen and (max-width:688px) {
+@media only screen and (max-width:800px) {
+    
     .Top-Part{
-        width: 500px;
+        overflow-x: hidden;
     }
     .Banner-and-Headline{
         display: flex;
         flex-direction: column;
+       
     }
     .head-line{
         height: 230px;
